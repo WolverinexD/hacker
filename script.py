@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT ="""<b>Hello {},
+    START_TXT = """<b>Hello {},
 My name is <a href=https://t.me/{}>{}</a>
 I can  Auto Filter Bot. Its Easy To Use Me 🥰.
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
@@ -218,6 +218,16 @@ This module only works for my admins
 __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
+    
+    URL_SHORTNER_TXT = """Help: <b>Url Shortner</b>
+Some URLs is Shortner
+<b>Commands and Usage:</b>
+• /short <code>(link)</code> - I will send the shorted links.
+<b>Example:</b>
+<code>/short https://t.me/josprojects</code>
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group."""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
