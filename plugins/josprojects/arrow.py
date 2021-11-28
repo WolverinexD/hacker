@@ -3,7 +3,7 @@
 
 from pyrogram import Client, filters
 from info import COMMAND_HAND_LER
-from plugins.josprojects.help_func.admin_check import f_onw_fliter
+from plugins.josprojects.help_func.cust_p_filters import f_onw_fliter
 
 # EMOJI CONSTANTS
 DART_E_MOJI = "🎯"
