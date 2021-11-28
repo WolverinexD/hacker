@@ -505,7 +505,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ Source Code ചോയ്ച്ച് വന്നിരിക്കുന്നു. നോക്കി ഇരുന്നോ, ഇപ്പൊ കിട്ടും. 😂 മാമനൊടു ഒന്നും തോന്നല്ലേ മക്കളേ. 😊",show_alert=True)
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('🧑‍🦯 Back', callback_data='start')
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
