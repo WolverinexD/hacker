@@ -47,7 +47,7 @@ async def save_group(bot, message):
     else:
         for u in message.new_chat_members:
             zaute = [[
-            InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
+            InlineKeyboardButton('⚠️ JOIN CHANNEL... 🥰 ', url="https://t.me/kerala_rockers")
         ]]
             if (temp.MELCOW).get('welcome') is not None:
                 try:
@@ -55,7 +55,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
+            text=f"<b>👋 Hi! {u.mention}, Welcome to {message.chat.title}</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
