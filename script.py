@@ -1,33 +1,31 @@
 class Script(object):
-    START_TXT = """Hello {},
-
-My name is <a href=https://t.me/{}>{}</a>!
-
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
-
+    """<b>Hello {},
+My name is <a href=https://t.me/{}>{}</a>
+I can  Auto Filter Bot. Its Easy To Use Me 🥰.
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: Zaute Km
-➥ Library: Pyrogram
-➥ Language: Python 𝟹
-➥ Data Base: MongoDB
-➥ Bot Server: Railway/Heroku
-➥ Build Status: v1.0.1 [ Beta ]"""
+    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>Nᴀɴᴄʏ 🌸</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Hacker_Jr'>HᴀᴄKᴇʀ Jʀ 🇮🇳 / 🇺🇸</a>
+✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʀᴏɢʀᴀᴍ</a>
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/'>Pʏᴛʜᴏɴ 3</a>
+✯ Dᴀᴛᴀ Bᴀsᴇ: <a href='https://cloud.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>
+✯ Bᴜʟʟᴅ Sᴛᴀᴛᴜs: <code>ᴠ1.0.1 [ Bᴇᴛᴀ ]</code></b>"""
 
-    SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+    SOURCE_TXT = """<b>Hello {}</b>, 
 
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+It Is Very Easy To Request Music Here.
+Just Type /song Command And Your Music Name & YouTube Link
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>Examples...</b>
+➲ <code>/song Alone Alan Walker.</code>
+➲ <code>/song Alan Walker - Faded.</code>
+➲  <code>/song Beliver - Imagine.</code> 
+➲  <code>/song Boss Blitch.</code>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -46,7 +44,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+- Nancybot support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
