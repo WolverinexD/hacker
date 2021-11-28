@@ -10,9 +10,6 @@ asyncio==3.4.3
 aiohttp==3.7.4
 aiofiles
 requests
-pyrogram
-TgCrypto
-Pyromod
 bs4
 imdbpy
 youtube-dl
@@ -25,6 +22,3 @@ wheel
 psutil
 tgintegration
 pyshorteners
-sqlalchemy~=1.3.23
-psycopg2-binary
-feedparser
