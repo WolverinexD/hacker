@@ -12,3 +12,5 @@ aiofiles
 requests
 bs4
 imdbpy
+youtube-dl
+youtube_search
