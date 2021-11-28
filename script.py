@@ -1,5 +1,5 @@
 class Script(object):
-    """<b>Hello {},
+    START_TXT ="""<b>Hello {},
 My name is <a href=https://t.me/{}>{}</a>
 I can  Auto Filter Bot. Its Easy To Use Me 🥰.
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
