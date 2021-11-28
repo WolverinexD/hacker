@@ -475,8 +475,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Tgraph', callback_data='tgraph'),
             InlineKeyboardButton('Zombies', callback_data='zombies')
             ],[
+            InlineKeyboardButton('Url Shortner', callback_data='shortner'),
+            InlineKeyboardButton('Fun', callback_data='fun')
+            ],[
             InlineKeyboardButton('Home', callback_data='start'),
-            InlineKeyboardButton('Fun', callback_data='fun'),
             InlineKeyboardButton('Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -685,9 +687,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "shortner":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.URL_SHORTNER_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('🧑‍🦯 Back', callback_data='about'),
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help'),
             InlineKeyboardButton('♻️ Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
