@@ -209,6 +209,18 @@ This module only works for my admins
 • /unban_users - to unban a user.
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
+ 
+    TTS_TXT = """Help: <b>Text to Speech</b>
+A module to convert text to voice with language support.
+
+<b>Commands and Usage:</b>
+• /tts - Reply to any text message with language code to convert as audio.
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
