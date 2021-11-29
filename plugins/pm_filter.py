@@ -474,7 +474,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Fun', callback_data='fun')
             ],[
             InlineKeyboardButton('Url Shortner', callback_data='shortner'),
-            InlineKeyboardButton('Zombies', callback_data='zombies')
+            InlineKeyboardButton('Zombies', callback_data='zombies'),
+            InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
             InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
             InlineKeyboardButton('Status', callback_data='stats')
@@ -709,6 +710,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.URL_SHORTNER_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tts":
+        buttons = [[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.TTS_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
