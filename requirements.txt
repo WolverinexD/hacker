@@ -22,3 +22,5 @@ wheel
 psutil
 tgintegration
 pyshorteners
+ffmpeg-python
+requests
