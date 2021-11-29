@@ -80,8 +80,9 @@ Just Type /song Command And Your Music Name & YouTube Link
 
     FUN_TXT = """<b>FUN MODULE</b> 
     
-<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
+<b>NOTHING MUCH JUST SOME FUN THINGS</b>
 t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
+
 𝟣. /dice - Roll The Dice 
 𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
 3. /Runs - Jokes 
@@ -207,11 +208,11 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """<b>★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱</b>"""
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
@@ -221,10 +222,13 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
     
     URL_SHORTNER_TXT = """Help: <b>Url Shortner</b>
 Some URLs is Shortner
+
 <b>Commands and Usage:</b>
 • /short <code>(link)</code> - I will send the shorted links.
+
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/kerala_Rockers</code>
+
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on both pm and group."""
