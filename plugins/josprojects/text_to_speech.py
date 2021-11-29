@@ -27,8 +27,8 @@ def convert(text):
     audio = BytesIO()
     i = Translator().translate(text, dest="en")
     lang = i.src
-    tts = gTTS(text, lang=lang)
-    audio.name = lang + "[KL].mp3"
+    tts = gTTS(text, language=language)
+    audio.name = language + "[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs].mp3"
     tts.write_to_fp(audio)
     return audio
 
