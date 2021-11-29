@@ -40,7 +40,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons =[[
             InlineKeyboardButton('➕ Add me to your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],
+            ],[
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚙️ Help', callback_data='help')
             ],[
@@ -85,7 +85,7 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons =[[
             InlineKeyboardButton('➕ Add me to your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],
+            ],[
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚙️ Help', callback_data='help')
             ],[
