@@ -25,10 +25,10 @@ from pyrogram.types import Message
 
 def convert(text):
     audio = BytesIO()
-    i = Translator().translate(text, dest="en")
+    i = Translator().translate(text, dest="english")
     lang = i.src
-    tts = gTTS(text, language=language)
-    audio.name = language + "[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs].mp3"
+    tts = gTTS(text, lang=lang)
+    audio.name = lang + "[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs].mp3"
     tts.write_to_fp(audio)
     return audio
 
