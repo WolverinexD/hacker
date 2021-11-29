@@ -24,6 +24,8 @@ Just Type /song Command And Your Music Name & YouTube Link
 ➲ <code>/song Alan Walker - Faded.</code>
 ➲  <code>/song Beliver - Imagine.</code> 
 ➲  <code>/song Boss Blitch.</code>"""
+    
+    LINK_TXT = """<b>ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
