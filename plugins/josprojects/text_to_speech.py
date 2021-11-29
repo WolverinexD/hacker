@@ -29,7 +29,6 @@ def convert(text):
     lang = i.src
     tts = gTTS(text, lang=lang)
     audio.name = lang + "\n[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs].mp3"
-    performer = f"[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs]" 
     tts.write_to_fp(audio)
     return audio
 
