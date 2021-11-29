@@ -38,18 +38,16 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
+        buttons =[[
             InlineKeyboardButton('➕ Add me to your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],
+            InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⚙️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('⚙️ Help', callback_data='help'),
-            InlineKeyboardButton('😎 About', callback_data='about')
+            InlineKeyboardButton('📣 Group & Channel Links 📣', callback_data='link')
             ],[
-            InlineKeyboardButton('🔎 Search Here Movies 🔍', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('⚜️ Channel', url='https://t.me/kerala_rockers'),
-            InlineKeyboardButton('🎭 Group', url='https://t.me/+XiEBk6zT8RM5MjI9')
-            ],[
-            InlineKeyboardButton('🔐 Close The Menu 🔐', callback_data='close_data')
+            InlineKeyboardButton('😎 About', callback_data='about'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
@@ -85,18 +83,16 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
+        buttons =[[
             InlineKeyboardButton('➕ Add me to your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],
+            InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⚙️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('⚙️ Help', callback_data='help'),
-            InlineKeyboardButton('😎 About', callback_data='about')
+            InlineKeyboardButton('📣 Group & Channel Links 📣', callback_data='link')
             ],[
-            InlineKeyboardButton('🔎 Search Here Movies 🔍', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('⚜️ Channel', url='https://t.me/kerala_rockers'),
-            InlineKeyboardButton('🎭 Group', url='https://t.me/+XiEBk6zT8RM5MjI9')
-            ],[
-            InlineKeyboardButton('🔐 Close The Menu 🔐', callback_data='close_data')
+            InlineKeyboardButton('😎 About', callback_data='about'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
