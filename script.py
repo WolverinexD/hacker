@@ -26,6 +26,13 @@ Just Type /song Command And Your Music Name & YouTube Link
 ➲  <code>/song Boss Blitch.</code>"""
     
     LINK_TXT = """<b>ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
+    
+    PIN_TXT ="""<b>PIN MODULE</b>
+<b>Pin :</b>
+<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
+<b>Commands & Usage:</b>
+◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
+◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -80,13 +87,6 @@ Just Type /song Command And Your Music Name & YouTube Link
 • /disconnect  - disconnect from a chat.
 • /connections - list all your connections."""
     
-    PIN_TXT ="""<b>PIN MODULE</b>
-<b>Pin :</b>
-<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
-<b>Commands & Usage:</b>
-◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
-◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
-
     FUN_TXT = """<b>FUN MODULE</b> 
     
 <b>NOTHING MUCH JUST SOME FUN THINGS</b>
