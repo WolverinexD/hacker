@@ -478,6 +478,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
             InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
+            InlineKeyboardButton('Pin', callback_data='pin'),
             InlineKeyboardButton('Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -571,6 +572,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.FUN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "pin":
+        buttons = [[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PIN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )         
