@@ -2,8 +2,6 @@
 
 from pyrogram import Client, filters
 
-from __future__ import unicode_literals
-
 import asyncio
 import math
 import youtube_dl
