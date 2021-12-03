@@ -5,7 +5,9 @@ from pyrogram import Client, filters
 import youtube_dl
 from youtube_search import YoutubeSearch
 import requests
-
+from yt_dlp import YoutubeDL
+from pyrogram.types import Message
+from youtubesearchpython import SearchVideos
 import os
 import time
 
