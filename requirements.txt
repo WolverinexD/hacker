@@ -14,8 +14,11 @@ requests
 pyshorteners
 bs4
 imdbpy
+youtube-search-python==1.4.6
 youtube-dl
 youtube_search
+ytthumb
+yt-dlp
 ffmpeg-python
 requests
 pytgcalls==0.0.17
@@ -23,3 +26,7 @@ wheel
 psutil
 tgintegration
 gTTS
+wget
+python-arq
+ytthumb
+pyrogram
