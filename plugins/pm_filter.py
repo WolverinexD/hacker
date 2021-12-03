@@ -477,8 +477,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
-            InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
+            InlineKeyboardButton('Corona', callback_data='corona'),
+            InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
             InlineKeyboardButton('Pin', callback_data='pin'),
+            ],[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
             InlineKeyboardButton('Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -513,6 +516,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=Script.SOURCE_TXT,
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "corona":
+        buttons = [[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.CORONA_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "stickerid":
+        buttons = [[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.STICKER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
