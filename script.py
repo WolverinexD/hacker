@@ -24,6 +24,13 @@ Just Type /song Command And Your Music Name & YouTube Link
 ➲ <code>/song Alan Walker - Faded.</code>
 ➲  <code>/song Beliver - Imagine.</code> 
 ➲  <code>/song Boss Blitch.</code>"""
+
+    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+
+➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+➡️ <b>example</b> : - /covid India"""
+
+    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
     
     LINK_TXT = """<b>ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
     
