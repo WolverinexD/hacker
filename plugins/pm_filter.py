@@ -473,13 +473,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Tgraph', callback_data='tgraph'),
             InlineKeyboardButton('Fun', callback_data='fun')
             ],[
-            InlineKeyboardButton('Url Shortner', callback_data='shortner'),
-            InlineKeyboardButton('Zombies', callback_data='zombies'),
-            InlineKeyboardButton('TT-Speech', callback_data='tts'),
-            ],[
             InlineKeyboardButton('Corona', callback_data='corona'),
             InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
             InlineKeyboardButton('Pin', callback_data='pin'),
+            ],[
+            InlineKeyboardButton('Url Shortner', callback_data='shortner'),
+            InlineKeyboardButton('Zombies', callback_data='zombies'),
+            InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
             InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
             InlineKeyboardButton('Status', callback_data='stats')
