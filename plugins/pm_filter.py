@@ -467,11 +467,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Purge', callback_data='purge'),
             InlineKeyboardButton('Restric', callback_data='restric'),
-            InlineKeyboardButton('Search', callback_data='search')
+            InlineKeyboardButton('Imdb', callback_data='search')
             ],[
             InlineKeyboardButton('Song', callback_data='source'),
             InlineKeyboardButton('Tgraph', callback_data='tgraph'),
-            InlineKeyboardButton('Fun', callback_data='fun')
+            InlineKeyboardButton('games', callback_data='fun')
             ],[
             InlineKeyboardButton('Corona', callback_data='corona'),
             InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
