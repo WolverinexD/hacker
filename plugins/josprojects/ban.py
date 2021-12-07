@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
-from plugins.helper_functions.admin_check import admin_check
-from plugins.helper_functions.extract_user import extract_user
-from plugins.helper_functions.string_handling import extract_time
+from plugins.josprojects.help_func.admin_check import admin_check
+from plugins.josprojects.help_func.extract_user import extract_user
+from plugins.josprojects.help_func.string_handling import extract_time
 
 
 @Client.on_message(filters.command("ban"))
