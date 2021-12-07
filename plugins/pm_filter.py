@@ -475,15 +475,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Corona', callback_data='corona'),
             InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
-            InlineKeyboardButton('Pin', callback_data='pin'),
+            InlineKeyboardButton('Password', callback_data='genpassword')
             ],[
             InlineKeyboardButton('Url Shortner', callback_data='shortner'),
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
-            InlineKeyboardButton('Password Generator', callback_data='genpassword')
-            ],[
             InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
+            InlineKeyboardButton('Pin', callback_data='pin'),
             InlineKeyboardButton('Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
