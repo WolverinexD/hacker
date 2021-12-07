@@ -57,7 +57,7 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[ᴋᴇʀᴀʟᴀ ʀᴏᴄᴋᴇʀs]" 
+            performer = f"[Nᴀɴᴄʏ 🌸 낸시]" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
