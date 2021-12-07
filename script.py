@@ -16,14 +16,20 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>
 ✯ Bᴜʟʟᴅ Sᴛᴀᴛᴜs: <code>ᴠ1.0.1 [ Bᴇᴛᴀ ]</code></b>"""
 
-    SOURCE_TXT = """<b>It Is Very Easy To Request Music Here.
-Just Type /song Command And Your Music Name & YouTube Link
+    SOURCE_TXT = """<b>Music download modules, for those who love music.</b>
 
-<b>Examples...</b>
-➲ <code>/song Alone Alan Walker.</code>
-➲ <code>/song Alan Walker - Faded.</code>
-➲  <code>/song Beliver - Imagine.</code> 
-➲  <code>/song Boss Blitch.</code>"""
+<b>Commands and Usage:</b>
+• /song or /mp3 (songname & youtube link) - download song from yt servers.
+• /video or /mp4 (songname & youtube link)
+
+<b>YouTube Thumbnail Download</b>
+• /ytthumb (youtube link)
+<b>Example:</b> <code>/ytthumb https://youtu.be/hth250mmc6k</code>
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
 
     CORONA_TXT ="""<b>Here is the help for the coron information module</b>
 
@@ -260,6 +266,21 @@ Some URLs is Shortner
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on both pm and group."""
+
+    PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+There Is Nothing To Know More. Send Me The Limit Of Your Password.
+- I Will Give The Password Of That Limit.
+
+<b>Commands and Usage:</b>
+• /genpassword or /genpw <code>20</code>
+
+<b>NOTE:</b>
+• Only Digits Are Allowed
+• Maximum Allowed Digits Till 84 
+(I Can't Generate Passwords Above The Length 84)
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
