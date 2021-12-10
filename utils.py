@@ -13,6 +13,12 @@ from pyrogram.types import InlineKeyboardButton
 from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
+import asyncio
+from datetime import timedelta
+from math import log, floor
+import json
+from pyrogram.types import InlineKeyboardButton
+import time
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -22,6 +28,12 @@ BTN_URL_REGEX = re.compile(
 )
 
 imdb = IMDb() 
+
+VIDEO_DICT = {} # to store video data for further faster inline queries
+# Somehow telegram sucks
+CAPTIONS = {}  # to store custom captions if any.
+TG_SUCKS = {}
+FIX_TG_SUCKS = {}
 
 BANNED = {}
 SMART_OPEN = '“'
