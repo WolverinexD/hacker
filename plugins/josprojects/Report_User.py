@@ -2,7 +2,7 @@ import pyrogram
 import asyncio
 import os
 from pyrogram import Client, filters
-from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
+
 
 @Client.on_message((filters.command(["report"]) | filters.regex("@admins") | filters.regex("@admin")) & filters.group)
 async def report_user(bot, message):
@@ -11,7 +11,7 @@ async def report_user(bot, message):
         reporter = str(message.from_user.id)
         mention = message.from_user.mention
         admins = await bot.get_chat_members(chat_id=chat_id, filter="administrators")
-        success = False
+        success = True
         report = f"𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})" + "\n"
         report += f"𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {message.reply_to_message.link}"
         for admin in admins:
@@ -22,13 +22,9 @@ async def report_user(bot, message):
                     chat_id=admin.user.id,
                     disable_web_page_preview=True
                 )
-             except ChatWriteForbidden:
-               pass
-          else:
-            message.reply_text("𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝖽 𝗍𝗈 𝖠𝖽𝗆𝗂𝗇𝗌!")
-        else:
-          sent_message = message.reply_text("𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝖽 𝗍𝗈 𝖠𝖽𝗆𝗂𝗇𝗌!")
-          sleep(5)
-          sent_message.delete()
-          message.delete()
+                success = True
+            except:
+                pass
+        if success:
+            await message.reply_text("𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝖽 𝗍𝗈 𝖠𝖽𝗆𝗂𝗇𝗌!")
                 
