@@ -457,36 +457,36 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Admin', callback_data='admin'),
-            InlineKeyboardButton('Connect', callback_data='coct'),
-            InlineKeyboardButton('Filters', callback_data='auto_manual')
+            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
+            InlineKeyboardButton('ꜰɪʟᴛᴇʀs', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('Gtrans', callback_data='gtrans'),
-            InlineKeyboardButton('Info', callback_data='info'),
-            InlineKeyboardButton('Paste', callback_data='paste')
+            InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='info'),
+            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste')
             ],[
-            InlineKeyboardButton('Purge', callback_data='purge'),
-            InlineKeyboardButton('Bans', callback_data='restric'),
-            InlineKeyboardButton('Imdb', callback_data='search')
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
+            InlineKeyboardButton('ʙᴀɴs', callback_data='restric'),
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='search')
             ],[
-            InlineKeyboardButton('Song', callback_data='source'),
-            InlineKeyboardButton('Tgraph', callback_data='tgraph'),
-            InlineKeyboardButton('Games', callback_data='fun')
+            InlineKeyboardButton('sᴏɴɢ', callback_data='source'),
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
+            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
             ],[
-            InlineKeyboardButton('Corona', callback_data='corona'),
-            InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
-            InlineKeyboardButton('Password', callback_data='genpassword')
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tgraph'),
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stickerid'),
+            InlineKeyboardButton('ᴘᴀssᴡᴏʀᴅ', callback_data='genpassword')
             ],[
-            InlineKeyboardButton('Pin', callback_data='pin'),
-            InlineKeyboardButton('Reports', callback_data='report'),
-            InlineKeyboardButton('VC Player', callback_data='vcplayer'),
+            InlineKeyboardButton('ᴄᴏʀᴏɴᴀ', callback_data='corona'),
+            InlineKeyboardButton('ʀᴇᴘᴏʀᴛs', callback_data='report'),
+            InlineKeyboardButton('ᴠᴄ ᴘʟᴀʏᴇʀ', callback_data='vcplayer'),
             ],[
-            InlineKeyboardButton('Url Shortner', callback_data='shortner'),
-            InlineKeyboardButton('Zombies', callback_data='zombies'),
-            InlineKeyboardButton('TT-Speech', callback_data='tts'),
+            InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
+            InlineKeyboardButton('ᴢᴏᴍʙɪᴇs', callback_data='zombies'),
+            InlineKeyboardButton('ᴛᴛ-sᴘᴇᴇᴄʜ', callback_data='tts'),
             ],[
-            InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
-            InlineKeyboardButton('Status', callback_data='stats')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
