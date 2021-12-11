@@ -13,8 +13,8 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
 # from pyrogram import ADMINS
-from nancyrobot.services.pyrogram import pbot
-from nancyrobot.services.sql import forceSubscribe_sql as sql
+from Nancyrobot.services.pyrogram import pbot
+from Nancyrobot.services.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
