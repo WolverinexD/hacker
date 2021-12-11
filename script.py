@@ -292,6 +292,17 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}"""
 
+    REPORT_TEXT = """𝖧𝖾𝗅𝗉: <b><u>𝖱𝖾𝗉𝗈𝗋𝗍</u></b>
+
+<b><u>𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:</u></b>
+• /report - 𝗋𝖾𝗉𝗅𝗒 𝖺𝗇𝗒 𝖬𝖾𝗌𝗌𝖺𝗀𝖾
+• <code>@admin</code> - <code>@𝖺𝖽𝗆𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗈𝗆𝗉𝗅𝖺𝗂𝗇𝗍𝗌</code>
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
     ZOMBIES_TXT = """Help: <b>Zombies</b>
 
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
