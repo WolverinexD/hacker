@@ -1,9 +1,10 @@
 import logging
-
+import re
+from os import environ
 from pyrogram import Client
 
 # from pyromod import listen
-from plugins.josprojects.help_func import get_int_key, get_str_key
+from plugins.josprojects.help_func import environ
 
 
 BOT_TOKEN = get_str_key("BOT_TOKEN", required=True)
