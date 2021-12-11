@@ -12,8 +12,6 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from pyrogram import BOT_TOKEN
-
 # from pyrogram import ADMINS
 from pyrogram.services.pyrogram import pbot
 from pyrogram.services.sql import forceSubscribe_sql as sql
