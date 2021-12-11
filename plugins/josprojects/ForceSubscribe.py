@@ -12,11 +12,11 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from DaisyX import BOT_TOKEN
+from pyrogram import BOT_TOKEN
 
-# from DaisyX import OWNER_ID as SUDO_USERS
-from DaisyX.services.pyrogram import pbot
-from DaisyX.services.sql import forceSubscribe_sql as sql
+# from pyrogram import ADMINS
+from pyrogram.services.pyrogram import pbot
+from pyrogram.services.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
