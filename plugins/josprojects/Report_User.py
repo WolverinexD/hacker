@@ -17,7 +17,7 @@ async def report_user(bot, message):
         for admin in admins:
             try:
                 reported_post = await message.reply_to_message.forward(admin.user.id)
-                await reported_post.reply(
+                await reported_post.message.reply_text(
                     text=report,
                     chat_id=admin.user.id,
                     disable_web_page_preview=True
