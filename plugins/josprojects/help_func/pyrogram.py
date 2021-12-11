@@ -4,13 +4,12 @@ from os import environ
 from pyrogram import Client
 
 # from pyromod import listen
-from plugins.josprojects.help_func import environ
+from plugins.josprojects.help_func import get_int_key, get_str_key
 
-
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+TOKEN = get_str_key("TOKEN", required=True)
+APP_ID = get_int_key("APP_ID", required=True)
+APP_HASH = get_str_key("APP_HASH", required=True)
+session_name = TOKEN.split(":")[0]
 pbot = Client(
     session_name,
     api_id=APP_ID,
