@@ -30,4 +30,5 @@ wget
 python-arq
 ytthumb
 pyrogram
-
+get_int_key
+get_str_key
