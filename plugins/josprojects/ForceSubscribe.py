@@ -13,7 +13,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
 # from pyrogram import ADMINS
-from plugins.josprojects.help_func.pyrogram import pbot
+from pyrogram import API_ID API_HASH BOT_TOKEN SESSION
 from plugins.josprojects.help_func import forceSubscribe_sql
 
 logging.basicConfig(level=logging.INFO)
