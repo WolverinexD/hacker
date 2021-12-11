@@ -7,10 +7,10 @@ from pyrogram import Client
 from plugins.josprojects.help_func import environ
 
 
-BOT_TOKEN = get_str_key("BOT_TOKEN", required=True)
-APP_ID = get_int_key("APP_ID", required=True)
-APP_HASH = get_str_key("APP_HASH", required=True)
-session_name = BOT_TOKEN.split(":")[0]
+SESSION = environ.get('SESSION', 'Media_search')
+API_ID = int(environ['API_ID'])
+API_HASH = environ['API_HASH']
+BOT_TOKEN = environ['BOT_TOKEN']
 pbot = Client(
     session_name,
     api_id=APP_ID,
