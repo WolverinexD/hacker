@@ -466,23 +466,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Paste', callback_data='paste')
             ],[
             InlineKeyboardButton('Purge', callback_data='purge'),
-            InlineKeyboardButton('Restric', callback_data='restric'),
+            InlineKeyboardButton('Bans', callback_data='restric'),
             InlineKeyboardButton('Imdb', callback_data='search')
             ],[
             InlineKeyboardButton('Song', callback_data='source'),
             InlineKeyboardButton('Tgraph', callback_data='tgraph'),
-            InlineKeyboardButton('games', callback_data='fun')
+            InlineKeyboardButton('Games', callback_data='fun')
             ],[
             InlineKeyboardButton('Corona', callback_data='corona'),
             InlineKeyboardButton('Sticker Id', callback_data='stickerid'),
             InlineKeyboardButton('Password', callback_data='genpassword')
+            ],[
+            InlineKeyboardButton('Pin', callback_data='pin'),
+            InlineKeyboardButton('Reports', callback_data='report'),
+            InlineKeyboardButton('VC Player', callback_data='vcplayer'),
             ],[
             InlineKeyboardButton('Url Shortner', callback_data='shortner'),
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('TT-Speech', callback_data='tts'),
             ],[
             InlineKeyboardButton('🧑‍🦯 Back', callback_data='start'),
-            InlineKeyboardButton('Pin', callback_data='pin'),
             InlineKeyboardButton('Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -507,6 +510,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "vcplayer":
+        await query.answer("COMING SOON....😎",show_alert=True)
     elif query.data == "code":
         await query.answer("നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ Source Code ചോയ്ച്ച് വന്നിരിക്കുന്നു. നോക്കി ഇരുന്നോ, ഇപ്പൊ കിട്ടും. 😂 മാമനൊടു ഒന്നും തോന്നല്ലേ മക്കളേ. 😊",show_alert=True)
     elif query.data == "source":
@@ -606,6 +611,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.PIN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "report":
+        buttons = [[
+            InlineKeyboardButton('🧑‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.REPORT_TEXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
