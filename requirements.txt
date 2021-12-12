@@ -19,7 +19,6 @@ youtube-dl
 youtube_search
 ytthumb
 yt-dlp
-search_engine_parser
 ffmpeg-python
 requests
 pytgcalls==0.0.17
