@@ -99,10 +99,20 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 • /connect  - connect a particular chat to your PM.
 • /disconnect  - disconnect from a chat.
 • /connections - list all your connections."""
+
+    JSON_TXT ="""<b>JSON</b>
+
+Bot Send Json For All Replied Messages Using A Simple Command.
+
+<b>Command and Usage:</b>
+
+◉ /json :- Reply To Any Message To Get Json
+
+◉ You Can Use This Command In Pm And Groups."""
+
+    FUN_TXT = """<b>GAMES MODULE</b> 
     
-    FUN_TXT = """<b>FUN MODULE</b> 
-    
-<b>NOTHING MUCH JUST SOME FUN THINGS</b>
+<b>NOTHING MUCH JUST SOME GAMES THINGS</b>
 t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
 
 𝟣. /dice - Roll The Dice 
