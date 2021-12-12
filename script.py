@@ -294,13 +294,16 @@ Name - {}"""
 
     REPORT_TEXT = """𝖧𝖾𝗅𝗉: <b><u>𝖱𝖾𝗉𝗈𝗋𝗍</u></b>
 
-<b><u>𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:</u></b>
-• /report - 𝗋𝖾𝗉𝗅𝗒 𝖺𝗇𝗒 𝖬𝖾𝗌𝗌𝖺𝗀𝖾
-• <code>@admin</code> - <code>@𝖺𝖽𝗆𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗈𝗆𝗉𝗅𝖺𝗂𝗇𝗍𝗌</code>
+Report something wrong to group admins for review!
 
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
+<b><u>𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:</u></b>
+➢ /report [reply] - Report a message to admins for review.
+➢ /report [reason] - Report a message to admins with reason.
+➢ @admins - Same as report command, but not a command.
+
+<b><u>NOTE:</u></b>
+• Nancy should have admin privillage.
+• These commands can be used only in group.
 • These commands can be used by any group member."""
 
     ZOMBIES_TXT = """Help: <b>Zombies</b>
