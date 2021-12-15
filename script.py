@@ -335,6 +335,19 @@ Report something wrong to group admins for review!
 • These commands can be used only in group.
 • These commands can be used by any group member."""
 
+    AFK_TXT = """Help: <b>AFK</b>
+
+Away From Keyboard is to tell that you're not available!
+
+<b>Commands and Usage:</b>
+• /afk - Mark yourself as afk.
+• /afk [reason] - Mark yourself as afk with reason.
+
+NOTE:
+• Nancy should have admin privillage.
+• These commands can be used only in group.
+• These commands can be used by any group member."""
+
     ZOMBIES_TXT = """Help: <b>Zombies</b>
 
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
