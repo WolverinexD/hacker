@@ -461,7 +461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
             InlineKeyboardButton('ꜰɪʟᴛᴇʀs', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('ᴀꜰᴋ', callback_data='afk'),
             InlineKeyboardButton('ɪɴꜰᴏ', callback_data='info'),
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste')
             ],[
@@ -474,7 +474,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
             ],[
             InlineKeyboardButton('«ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json'),
             InlineKeyboardButton('ɴᴇxᴛ»', callback_data='hacker')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -498,8 +497,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴢᴏᴍʙɪᴇs', callback_data='zombies'),
             InlineKeyboardButton('ᴛᴛ-sᴘᴇᴇᴄʜ', callback_data='tts'),
             ],[
+            InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json'),
+            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
+            ],[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -514,8 +516,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Hacker_Jr'),
             InlineKeyboardButton('❤️ sᴏᴜʀᴄᴇ', callback_data='code')
             ],[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
+            InlineKeyboardButton('🧑‍🦯 ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('♻️ sᴛᴀᴛᴜs', callback_data='stats'),
+            InlineKeyboardButton('🔐  ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -546,6 +549,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.CORONA_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "afk":
+        buttons = [[
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='halp')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.AFK_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
