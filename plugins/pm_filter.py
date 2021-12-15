@@ -672,11 +672,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "link":
         buttons = [[
-            InlineKeyboardButton('⚜ Join Our Main Channel ⚜', url='https://t.me/kerala_rockers'),
+            InlineKeyboardButton('⚜ ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜', url='https://t.me/kerala_rockers'),
             ],[
-            InlineKeyboardButton('Group 1', url='https://t.me/+XiEBk6zT8RM5MjI9'),
-            InlineKeyboardButton('Group 2', url='https://t.me/+_UN8U9jUmwg1ODE1'),
-            InlineKeyboardButton('Group 3', url='https://t.me/KL_GROUP1')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 1', url='https://t.me/+XiEBk6zT8RM5MjI9'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/+_UN8U9jUmwg1ODE1'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 3', url='https://t.me/KL_GROUP1')
             ],[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
