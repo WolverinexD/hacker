@@ -8,6 +8,10 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
 <b>Here Is The Help For My Commands.</b>"""
 
+    HACKER_TXT = """Hey {}
+
+<b>Here Is The Help For My Commands.</b>"""
+
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>Nᴀɴᴄʏ 🌸</a>
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Hacker_Jr'>HᴀᴄKᴇʀ Jʀ 🇮🇳 / 🇺🇸</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʀᴏɢʀᴀᴍ</a>
