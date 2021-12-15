@@ -1,13 +1,12 @@
 class Script(object):
     START_TXT = """<b>Hello {},
-My name is <a href=https://t.me/{}>{}</a>
-A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
+My name is <a href=https://t.me/{}>{}</a>.A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
 
     HELP_TXT = """<b>Hey {}
 Here Is The Help For My Commands.</b>"""
 
     HACKER_TXT = """<b>Hey {}
-<Here Is The Help For My Commands.</b>"""
+Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>Nᴀɴᴄʏ 🌸</a>
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Hacker_Jr'>HᴀᴄKᴇʀ Jʀ 🇮🇳 / 🇺🇸</a>
@@ -17,7 +16,9 @@ Here Is The Help For My Commands.</b>"""
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>
 ✯ Bᴜʟʟᴅ Sᴛᴀᴛᴜs: <code>ᴠ1.0.1 [ Bᴇᴛᴀ ]</code></b>"""
 
-    SOURCE_TXT = """<b>Music download modules, for those who love music.</b>
+    SOURCE_TXT = """Help: <b>Song</b>
+
+<b>Music download modules, for those who love music.</b>
 
 <b>Commands and Usage:</b>
 • /song or /mp3 (songname & youtube link) - download song from yt servers.
@@ -28,64 +29,75 @@ Here Is The Help For My Commands.</b>"""
 <b>Example:</b> <code>/ytthumb https://youtu.be/hth250mmc6k</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+    CORONA_TXT ="""Help: <b>Corona</b>
 
-➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
-➡️ <b>example</b> : - /covid India"""
+<b>Here is the help for the coron information module</b>
 
-    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
+➢ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+
+➢ <b>Example</b> : - /covid India
+
+<b>NOTE:</b>
+• Nancy should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
+    STICKER_TXT ="""<b>COMMAND <code>/stickerid</codo>\n\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
     
     LINK_TXT = """<b>If You Want To Get The Requested Movies You Have To Join The Main Channel Given Below.🥰\nചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
     
     PIN_TXT ="""<b>PIN MODULE</b>
-<b>Pin :</b>
-<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
+
+<b>Pin:</b>
+All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
+
 <b>Commands & Usage:</b>
 ◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
 ◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
 
-    MANUALFILTER_TXT = """Help: <b>Filters</b>
+    MANUALFILTER_TXT = """Help: <b>Manual Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
-
-<b>NOTE:</b>
-1. IMDb should have admin privillage.
-2. Only admins can add filters in a chat.
-3. Alert buttons have a limit of 64 characters.
+- Manual Filter is the feature where users can set automated replies for a particular keyword and bot will respond whenever a keyword is found the message!.
 
 <b>Commands and Usage:</b>
 • /filter - add a filter in chat.
 • /filters - list all the filters of a chat.
 • /del - delete a specific filter in chat.
-• /delall - delete the whole filters in a chat (chat owner only)."""
+• /delall - delete the whole filters in a chat (chat owner only).
+
+<b>NOTE:</b>
+• Nancy should have admin privillage.
+• Only admins can add filters in a chat.
+• Alert buttons have a limit of 64 characters."""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Nancybot support both url and alert inline buttons.
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. IMDb supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format.
-
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/kerala_rockers)</code>
 
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
-   
+<code>[Button Text](buttonalert:This is an alert message)</code>
+
+<b>NOTE:</b>
+1. Telegram will not allows you to send buttons without any content, so content is mandatory.
+2. Nancy supports buttons with any telegram media type.
+3. Buttons should be properly parsed as markdown format."""
 
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
+Auto Filter is the feature to filter and save all the files automatically from channel to group. This mostly used in group to get movies with name!
+
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. Make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+• Make me the admin of your channel if it's private.
+• Make sure that your channel does not contains camrips, porn and fake files.
+• Forward the last message to me with quotes or send me the last message link.
+• Nancy will save all the files in that channel to db as u can use them in the group."""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -134,7 +146,7 @@ Paste some texts or documents on a website!
 • /paste [reply] - paste the replied text on Pasty
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -146,7 +158,7 @@ Do as you wish with telegra.ph module!
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -160,7 +172,7 @@ Get information about something!
 • /json - get the json details of a message.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -172,7 +184,7 @@ Translate texts to a specific language!
 • /tr [language code][reply] - translate replied message to specific language.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • IMDb can translate texts to 200+ languages."""
 
@@ -185,7 +197,7 @@ Search many things without leaving telegram!
 • /search  - get the film information from various sources.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • More search tools can be found on inline.
 • Those commands works on both pm and group."""
 
@@ -197,7 +209,7 @@ Need to delete lots of messages? That's what purges are for!
 • /purge - delete all messages from the replied to message, to the current message.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
@@ -219,14 +231,13 @@ This module allows you to do that easily, by exposing some common actions, so ev
 -> <code>/tmute @username 2h</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
     ADMIN_TXT = """Help: <b>Admin Mods</b>
 
-<b>NOTE:</b>
-This module only works for my admins
+Make it easy to promote and demote with admin module!
 
 <b>Commands and Usage:</b>
 • /logs - to get the rescent errors.
@@ -239,16 +250,22 @@ This module only works for my admins
 • /ban_users - to ban a user.
 • /unban_users - to unban a user.
 • /channel - to get list of total connected channels.
-• /broadcast - to broadcast a message to all users."""
+• /broadcast - to broadcast a message to all users.
+
+<b>NOTE:</b>
+• Nancy should have admin privillage.
+• Only admins can execute these in a chat.
+• These commands can be used only in group."""
  
     TTS_TXT = """Help: <b>Text to Speech</b>
+
 A module to convert text to voice with language support.
 
 <b>Commands and Usage:</b>
 • /tts - Reply to any text message with language code to convert as audio.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -279,6 +296,7 @@ Some URLs is Shortner
 • These commands works on both pm and group."""
 
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+
 There Is Nothing To Know More. Send Me The Limit Of Your Password.
 - I Will Give The Password Of That Limit.
 
@@ -289,7 +307,7 @@ There Is Nothing To Know More. Send Me The Limit Of Your Password.
 • Only Digits Are Allowed
 • Maximum Allowed Digits Till 84 
 (I Can't Generate Passwords Above The Length 84)
-• IMDb should have admin privillage.
+• Nancy should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
