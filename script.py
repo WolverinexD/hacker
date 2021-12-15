@@ -4,13 +4,13 @@ My name is <a href=https://t.me/{}>{}</a>
 I can  Auto Filter Bot. Its Easy To Use Me 🥰.
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
-    HELP_TXT = """Hey {}
+    HELP_TXT = """<b>Hey {}
 
-<b>Here Is The Help For My Commands.</b>"""
+Here Is The Help For My Commands.</b>"""
 
-    HACKER_TXT = """Hey {}
+    HACKER_TXT = """<b>Hey {}
 
-<b>Here Is The Help For My Commands.</b>"""
+<Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>Nᴀɴᴄʏ 🌸</a>
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Hacker_Jr'>HᴀᴄKᴇʀ Jʀ 🇮🇳 / 🇺🇸</a>
@@ -42,7 +42,7 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
     
-    LINK_TXT = """<b>ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
+    LINK_TXT = """<b>If You Want To Get The Requested Movies You Have To Join The Main Channel Given Below.🥰\nചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
     
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
