@@ -612,7 +612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manualfilter')
             ],[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
+            InlineKeyboardButton('ᴄʟᴏsᴇ!', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -675,7 +675,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "json":
         buttons = [[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='hacker')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -691,8 +691,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/+_UN8U9jUmwg1ODE1'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ 3', url='https://t.me/KL_GROUP1')
             ],[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
+            InlineKeyboardButton('«ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ!', callback_data='close_data'),
+            InlineKeyboardButton('ʜᴇʟᴘ»', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -703,7 +704,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "paste":
         buttons = [[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ 🔐', callback_data='close_data')
+            InlineKeyboardButton('ᴄʟᴏsᴇ!', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
