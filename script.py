@@ -1,15 +1,12 @@
 class Script(object):
     START_TXT = """<b>Hello {},
 My name is <a href=https://t.me/{}>{}</a>
-I can  Auto Filter Bot. Its Easy To Use Me 🥰.
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
 
     HELP_TXT = """<b>Hey {}
-
 Here Is The Help For My Commands.</b>"""
 
     HACKER_TXT = """<b>Hey {}
-
 <Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>Nᴀɴᴄʏ 🌸</a>
