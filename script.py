@@ -1,6 +1,6 @@
 class Script(object):
     START_TXT = """<b>Hello {},
-My name is <a href=https://t.me/{}>{}</a>.A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
+My Name is <a href=https://t.me/{}>{}</a>. A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
 
     HELP_TXT = """<b>Hey {}
 Here Is The Help For My Commands.</b>"""
@@ -48,7 +48,7 @@ Here Is The Help For My Commands.</b>"""
 
     STICKER_TXT ="""<b>COMMAND <code>/stickerid</codo>\n\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
     
-    LINK_TXT = """<b>If You Want To Get The Requested Movies You Have To Join The Main Channel Given Below.🥰\nചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
+    LINK_TXT = """<b>• If You Want To Get The Requested Movies You Have To Join The Main Channel Given Below.🥰\n\n• ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള Main Channel ജോയിൻ ചെയ്യണം.🥰 </b>"""
     
     PIN_TXT ="""<b>PIN MODULE</b>
 
